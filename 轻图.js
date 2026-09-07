@@ -6,7 +6,7 @@
 *******************************
 [rewrite_local]
 # >轻图（永久会员）
-^https?:\/\/(purchase-qingtu-api.b612kaji|api-qingtu.kajicam).com\/(v1\/purchase\/subscription\/subscriber\/status|xht\/api\/user\/info) url script-response-body https://raw.githubusercontent.com/WeiGiegie/666/main/qingtu.js
+^https?:\/\/(purchase-qingtu-api.b612kaji|api-qingtu.kajicam).com\/(v1\/purchase\/subscription\/subscriber\/status|xht\/api\/user\/info) url script-response-body https://raw.githubusercontent.com/linlu886/-/refs/heads/main/轻图.js
 
 [mitm] 
 hostname = purchase-qingtu-api.b612kaji.com,api-qingtu.kajicam.com
